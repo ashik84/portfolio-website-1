@@ -52,6 +52,7 @@
 }
 .section-middle {
   display: flex;
+  gap: 195px;
   align-items: center;
 }
 .section-middle .text {
@@ -79,6 +80,4 @@
   font-weight: 700;
   font-size: 20px;
   text-align: center;
-}
-.section-middle .picture{
 }
