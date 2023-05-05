@@ -50,6 +50,7 @@ h2 {
   width: 100%;
   height: 100vh;
   background:url(images/header_bg.png) no-repeat right bottom, url(images/developer.png) no-repeat left 2% center / 6%;
+position: relative;
 }
 nav {
   padding: 50px 225px 30px 225px;
@@ -83,14 +84,19 @@ ul li a:hover {
   background-color: #fd6e0a;
   color: #fff;
 }
-.banner {
+/* .banner {
   display: flex;
   align-items: center;
-}
+} */
 
 .banner-description {
   margin: 0 0 185px 230px;
   text-align: left;
+  float: left;
+  width: 585px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
 }
 .banner-description a {
   text-decoration: none;
@@ -100,6 +106,10 @@ ul li a:hover {
   height: 614px;
   size: 100%;
   margin: 0 34px 0 160px;
+  float: right;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
 }
 .banner-description h1 {
   margin: 10px 0 20px;
