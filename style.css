@@ -21,7 +21,6 @@
   padding: 13px 15px;
   border-radius: 5px;
   text-decoration: none;
-
 }
 .btn2 {
   background-color: #fff8f3;
@@ -229,4 +228,37 @@ hr {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+
+/* Contact section */
+
+.contact {
+  padding: 80px 230px 100px 230px;
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+}
+.contact h3 {
+  margin-bottom: 25px;
+}
+.contact p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+.contact .icons i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.message-section button {
+  border: none;
+  font-size: 20px;
+  padding: 8px 13px;
+  display: block;
+}
+.message-section input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  margin: 0 20px 20px 0;
 }
