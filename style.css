@@ -248,6 +248,10 @@ hr {
 .contact .icons i {
   font-size: 25px;
   margin: 0 10px;
+  color: #fd6e0a;
+}
+.contact .icons a{
+  text-decoration: none;
 }
 .message-section button {
   border: none;
