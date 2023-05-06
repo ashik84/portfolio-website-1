@@ -20,6 +20,8 @@
   background-color: #fd6e0a;
   padding: 13px 15px;
   border-radius: 5px;
+  text-decoration: none;
+
 }
 .btn2 {
   background-color: #fff8f3;
@@ -221,4 +223,10 @@ hr {
 }
 .summary-container h6 {
   margin: 10px 0 15px 0;
+}
+.summary .btn {
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
