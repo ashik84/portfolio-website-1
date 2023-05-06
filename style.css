@@ -266,3 +266,6 @@ textarea {
   border: none;
   margin: 0 20px 20px 0;
 }
+.message-section input:focus, .message-section textarea:focus {
+outline: none;
+}
